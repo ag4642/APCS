@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0056)http://nifty.stanford.edu/2002/LevineSort/labWriteUp.htm -->
+<HTML><HEAD><TITLE>Sort Detective</TITLE>
+<META http-equiv=Content-Language content=en-us>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2900.2769" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId>
+<META content="l, default" name="Microsoft Border"></HEAD>
+<BODY><!--msnavigation-->
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width="1%">
+      <P>&nbsp;</P></TD>
+    <TD vAlign=top width=24></TD><!--msnavigation-->
+    <TD vAlign=top>
+      <H3 align=center>CS 132<BR>Computer Science II<BR>Sort Detective</H3>
+      <H4 align=center><BR>David B. Levine<BR>Computer Science Department<BR>St. 
+      Bonaventure University<BR></H4>
+      <P align=left>"I had the spots removed for luck; fortunately I remember 
+      where the spots formerly was."&nbsp; - Nathan Detroit, <I>Guys and 
+      Dolls</I></P>
+      <H3 align=left>Objective</H3>
+      <P align=left>&nbsp;&nbsp;&nbsp;&nbsp; The primary objective of this lab 
+      is for you to apply your theoretical knowledge of sorting algorithms to 
+      solve a problem of poor user interface design.&nbsp; More specifically, 
+      you will be given a program which is designed to measure comparisons, data 
+      movements, and execution time for the seven sorting algorithms discussed 
+      in class.&nbsp; Unfortunately, the designer of the program did not label 
+      the buttons properly.&nbsp; You must apply your understanding of the 
+      general properties of the algorithms (and in some cases of the code used 
+      to implement them) to determine the proper labeling of the buttons.
+      <P align=left>&nbsp;&nbsp;&nbsp;&nbsp; The secondary objective of this lab 
+      is for you to gain experience writing a concise, but complete analysis of 
+      a system.
+      <H3 align=left>Background</H3>
+      <P align=left>&nbsp;&nbsp;&nbsp;&nbsp; As you know from class, if you 
+      double the size of the data set that you give to a quadratic algorithm, it 
+      will do four times the work; by contrast, an O(NlogN) algorithm will do a 
+      bit more than twice as much; and, a linear algorithm will do only twice as 
+      much work.&nbsp; As you also know, the characteristics of the input data 
+      set can affect the expected performance of many of our sorting 
+      algorithms.&nbsp; Before you begin the lab, you should review the expected 
+      performance of the algorithms on various data sets.
+      <P align=left>&nbsp;&nbsp;&nbsp;&nbsp; The sorting algorithms under study 
+      this week include (in alphabetical order): bubbleSort, heapSort, 
+      insertionSort, mergeSort, quickSort, selectionSort, and shellSort.
+      <H3 align=left>Instructions - Warning: read all of the instructions before 
+      beginning!</H3>
+      <OL>
+        <LI>
+        <P align=left>Begin by copying the SortDetective application from the 
+        server.&nbsp; Execute it and play with it a bit.&nbsp; Notice that the 
+        button names do not give any indication which sort they will 
+        execute.&nbsp; Notice also, that if you create a small list, then that 
+        list is shown to you in the console window.&nbsp; In the unlikely event 
+        that a sort fails (oops!), a message will appear there as well.<BR></P>
+        <LI>
+        <P align=left>Devise a plan which will enable you to match the 
+        particular algorithms to the button names.&nbsp; Hint:&nbsp; It may make 
+        sense to try to divide the sorts into initial groups and then to work on 
+        each group separately.&nbsp; Divide and conquer: it works for algorithms 
+        and it can work here, too!<BR></P>
+        <LI>
+        <P align=left>Execute your plan, taking careful notes as you go.<BR></P>
+        <LI>
+        <P align=left>Describe the results of your experiment in a summary 
+        document.&nbsp; Begin with a summary of the matching and then show the 
+        rationalization process that justifies it.&nbsp; A sample from a similar 
+        (but much simpler) lab on searching can be seen <A 
+        href="http://nifty.stanford.edu/2002/LevineSort/sampleAnswer.htm">here</A>.&nbsp; 
+        </P></LI></OL>
+      <H3>A Note on Writing</H3>
+      <P class=Question 
+      style="MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; tab-stops: .5in"><SPAN 
+      style="mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>There is no 
+      coding in this lab.&nbsp; Thus, you should expect that a 
+      <B>significant</B> portion of the lab grade for this lab will be 
+      determined by the quality of the writing of the report.<SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN>This includes the completeness of 
+      the report, the clarity (and grammar) of the writing, and general 
+      presentation.&nbsp; In the past, some students who matched all seven sorts 
+      correctly have received poor grades due to sloppy writing. Don't be one of 
+      them! </P>
+      <P class=Question 
+      style="MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; tab-stops: .5in">&nbsp;&nbsp;&nbsp;&nbsp; 
+      Some of the sorts are very difficult to distinguish.&nbsp; A carefully 
+      outlined experiment may compensate for an error in these cases if the 
+      writing makes it clear that your conclusions/guesses are substantiated by 
+      the data.</P>
+      <P class=Question 
+      style="MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; tab-stops: .5in">&nbsp;&nbsp;&nbsp;&nbsp; 
+      Finally, remember that your report needn't detail every experiment you 
+      ran.&nbsp; Rather, it should give sufficient information to justify your 
+      conclusions.&nbsp; It is possible to write a very short report that is 
+      completely correct if your experiments are well-chosen.&nbsp; After you 
+      learn the matching, you might consider whether there was a shorter way to 
+      arrive at your conclusion!</P>
+      <P class=Question style="MARGIN-BOTTOM: 0pt; tab-stops: .5in"></O:P></P>
+      <H3 style="MARGIN-BOTTOM: 0pt; tab-stops: .5in"><B 
+      style="mso-bidi-font-weight: normal">To Hand In</B></H3>
+      <P class=Question style="MARGIN-BOTTOM: 0pt; tab-stops: .5in">&nbsp;<O:P> 
+      </O:P></P>
+      <P class=Question 
+      style="MARGIN: 0in 0in 0pt; TEXT-INDENT: 0in; tab-stops: .5in"><SPAN 
+      style="mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      </SPAN>You need only hand in the final report from Step 4.<SPAN 
+      style="mso-spacerun: yes">&nbsp;&nbsp;</SPAN></P>
+      <P class=MsoNormal>&nbsp;</P>
+      <H3><B style="mso-bidi-font-weight: normal">Assignment Type (see Academic 
+      Practices and Policies Document):</B></H3>
+      <P class=MsoNormal><SPAN style="mso-bidi-font-weight: bold"><SPAN 
+      style="mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      </SPAN>Group assignment, limited collaboration.<O:P> </O:P></SPAN></P>
+      <P align=left>&nbsp; 
+  <!--msnavigation--></P></TD></TR><!--msnavigation--></TBODY></TABLE></BODY></HTML>

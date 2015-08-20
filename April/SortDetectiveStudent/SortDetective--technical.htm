@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0055)http://nifty.stanford.edu/2002/LevineSort/technical.htm -->
+<HTML><HEAD><TITLE>SortDetective</TITLE>
+<META http-equiv=Content-Language content=en-us>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2900.2769" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId>
+<META content="l, default" name="Microsoft Border"></HEAD>
+<BODY><!--msnavigation-->
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width="1%">
+      <P>&nbsp;</P></TD>
+    <TD vAlign=top width=24></TD><!--msnavigation-->
+    <TD vAlign=top>
+      <H3 align=center>SortDetective</H3>
+      <H3 align=center>Technical Handout</H3>
+      <H3>File Structure</H3>
+      <P>&nbsp;&nbsp;&nbsp; The SortDetective program is written in Java using 
+      JavaPowerTools (JPT) classes from Northeastern University.&nbsp; The two 
+      main classes are SortDetective and SortingExperiment.&nbsp; SortDetective 
+      creates the user interface using JPT; it is here that the number of 
+      buttons is set, the labels chosen, and the mapping of buttons to 
+      algorithms is completed.&nbsp; SortingExperiment contains the actual 
+      sorting algorithms.&nbsp; To create an application, compile these two 
+      classes together with the JPT archive file; the main class is 
+      SortDetective.</P>
+      <H3>Changing the Button Mappings</H3>
+      <P>&nbsp;&nbsp; It is likely that over time, you will wish to change 
+      either the number of sorts, the button names, or (most likely), the 
+      mapping between buttons and algorithms.&nbsp; The code that handles this 
+      is in lines 178-203 of the file SortDetective.java.&nbsp; The button 
+      labels are stored in the array of Strings named buttonNames.&nbsp; The 
+      actual mapping of algorithms is handled during the initialization of the 
+      array of Actions named sorts.&nbsp; Making the obvious changes there will 
+      have the obvious results.&nbsp; </P>
+      <H3>Adding a New Sorting Algorithm/Modifying an Existing Algorithm</H3>
+      <P>&nbsp;&nbsp; The algorithms themselves are found in the file 
+      SortingExperiment.java.&nbsp; Each algorithm is represented by a static 
+      object.&nbsp; New algorithms should be added by mimickry.&nbsp; Each 
+      algorithm may assume that the counters movements and comparisons start at 
+      zero; it should update them accordingly.&nbsp; It needn't worry about the 
+      timing. 
+<!--msnavigation--></P></TD></TR><!--msnavigation--></TBODY></TABLE></BODY></HTML>

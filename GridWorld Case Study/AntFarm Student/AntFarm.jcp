@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>AntFarm</label>
+		<root_path>\</root_path>
+		<output_path>\</output_path>
+		<source_path>\</source_path>
+		<jdkprofile_ref>JDK version 1.5.0_07</jdkprofile_ref>
+		<compiler_ref>&lt;Default&gt;</compiler_ref>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items/>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref/>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>AntFarmRunner</run>
+		</runtime>
+	</runtimes>
+	<libraries/>
+	<files>
+		<include>
+			<fileitem>
+				<path>AntFarmRunner.java</path>
+				<source>false</source>
+			</fileitem>
+			<fileitem>
+				<path>Cake.java</path>
+				<source>false</source>
+			</fileitem>
+			<fileitem>
+				<path>Cookie.java</path>
+				<source>false</source>
+			</fileitem>
+			<fileitem>
+				<path>Food.java</path>
+			</fileitem>
+			<fileitem>
+				<path>Processable.java</path>
+			</fileitem>
+			<fileitem>
+				<path>QueenAnt.java</path>
+				<source>false</source>
+			</fileitem>
+			<fileitem>
+				<path>WorkerAnt.java</path>
+				<source>false</source>
+			</fileitem>
+		</include>
+	</files>
+	<tasks/>
+</project>
